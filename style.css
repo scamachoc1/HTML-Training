@@ -62,18 +62,18 @@ header {
 header img {
     display: block;
     max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 /*MAIN 1*/
+.main-1{
+    position: relative;
+}
 .main-1 h1 {
-    display: none;
     color: white;
     position: absolute;
     left: 0;
     top: 0;
-    max-height: 100%;
 }
 
 .main-1 h1 span {
@@ -81,8 +81,7 @@ header img {
 }
 
 .main-1 img {
-    width: 100%;
-
+    width: 100vw;
     object-fit: cover;
     left: 0;
     top: 0;
