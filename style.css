@@ -56,24 +56,19 @@ button {
 header {
     max-height: fit-content;
     background: var(--bg-color);
-    margin: auto;
-    padding: 1rem 0;
+    padding: 1rem 5rem;
 }
 
 header img {
     display: block;
-    width: 50%;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
 /*MAIN 1*/
-.main-1 {
-    background-size: contain;
-    position: relative;
-}
-
 .main-1 h1 {
+    display: none;
     color: white;
     position: absolute;
     left: 0;
@@ -91,7 +86,6 @@ header img {
     object-fit: cover;
     left: 0;
     top: 0;
-    z-index: -1;
 }
 
 /*MAIN 2*/
