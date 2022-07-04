@@ -57,7 +57,7 @@ header {
     max-height: fit-content;
     background: var(--bg-color);
     margin: auto;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 header img {
@@ -70,7 +70,6 @@ header img {
 /*MAIN 1*/
 .main-1 {
     background-size: contain;
-    height: 200%;
     position: relative;
 }
 
@@ -130,6 +129,7 @@ header img {
 .main-2 img {
     max-width: 2.2rem;
     max-height: 2.2rem;
+    margin-left: 1rem;
 }
 
 /*MAIN 3*/
