@@ -50,13 +50,20 @@ a {
     background: #f9f9f9;
 }
 
+p,
+h2 {
+    width: 80%;
+    max-width: 36rem;
+    margin: auto;
+}
+
+/*
+
 #main-2 p,
 #main-2 h2,
 #main-3 p,
 #main-3 h2{
-    max-width: 60%;
-    margin: auto;
-}
+}*/
 /*HEADER*/
 
 
@@ -150,6 +157,7 @@ header img {
     text-align: center;
     padding: 1.5rem 0;
 }
+
 #main-3 img {
     max-width: 13rem;
     object-fit: contain;
