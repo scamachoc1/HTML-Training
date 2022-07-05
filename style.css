@@ -24,8 +24,6 @@ h2 {
 
 .button {
     font-size: 1rem;
-    border: none;
-    color: white;
     border-radius: 10rem;
     font-family: 'montbold';
     text-align: center;
@@ -44,14 +42,15 @@ a {
     text-decoration: none;
     color: white;
 }
-
-#main-2,
-#main-3 {
+/*
+I added bg to the whole main since width 80% left
+white spaces left-right
+*/
+main{
     background: #f9f9f9;
 }
-
-p,
-h2 {
+#main-2,
+#main-3 {
     width: 80%;
     max-width: 36rem;
     margin: auto;
@@ -98,8 +97,6 @@ header img {
 
 #main-1 img {
     width: 100vw;
-    left: 0;
-    top: 0;
 }
 
 /*MAIN 2*/
@@ -173,9 +170,6 @@ footer {
     align-items: center;
 }
 footer p {
-    width: auto;
-    margin: 0;
-
     color: white;
     text-align: left;
     font-size: 1rem;
