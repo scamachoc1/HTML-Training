@@ -22,8 +22,8 @@ h2 {
     line-height: 2.7rem;
 }
 
-button {
-    font-size: 1.5rem;
+.button {
+    font-size: 1rem;
     border: none;
     color: white;
     border-radius: 10rem;
@@ -56,26 +56,18 @@ h2 {
     max-width: 36rem;
     margin: auto;
 }
-
-/*
-
-#main-2 p,
-#main-2 h2,
-#main-3 p,
-#main-3 h2{
-}*/
 /*HEADER*/
 
 
 header {
-    max-height: fit-content;
     background: var(--bg-color);
-    padding: 1rem 5rem;
+    padding: 1.7rem 5rem;
 }
 
 header img {
     display: block;
-    max-width: 80%;
+    width: 80%;
+    max-width: 17rem;
     margin: auto;
 }
 
@@ -106,7 +98,6 @@ header img {
 
 #main-1 img {
     width: 100vw;
-    object-fit: cover;
     left: 0;
     top: 0;
 }
@@ -129,15 +120,14 @@ header img {
     margin-bottom: 2rem;
 }
 
-#main-2 button {
+#main-2 .button {
     max-height: 4rem;
-    min-width: 20rem;
+    min-width: 15rem;
     background: #45d492;
     border: none;
     color: white;
-    padding: 1rem 1rem;
+    padding: 1rem;
     margin-top: 3rem;
-    margin-right: 1rem;
 
     display: flex;
     justify-content: center;
@@ -153,15 +143,12 @@ header img {
 /*MAIN 3*/
 
 #main-3 {
-
     text-align: center;
     padding: 1.5rem 0;
 }
 
 #main-3 img {
     max-width: 13rem;
-    object-fit: contain;
-
 }
 
 #main-3 h2 {
@@ -169,35 +156,32 @@ header img {
     margin-bottom: 1rem;
     color: #45d492;
 }
-
-#main-3 button {
+#main-3 .button {
+    display: inline-block;
     background: var(--bg-color);
     padding: 1rem 2.7rem;
-    margin-top: 5rem;
-    margin-bottom: 7rem;
+    margin: 4rem 0;
 }
 
 /*footer*/
 footer {
     background: var(--bg-color);
+    padding: 4.5rem 4rem;
 
-    padding: 3rem 2rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
-
 footer p {
+    width: auto;
+    margin: 0;
+
     color: white;
     text-align: left;
-    margin-right: auto;
-    flex-shrink: 0;
-
     font-size: 1rem;
     line-height: 2rem;
 }
 
 footer img {
-    margin-left: auto;
     max-width: 40%;
 }
