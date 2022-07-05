@@ -102,10 +102,8 @@ header img {
 /*MAIN 2*/
 
 #main-2 {
-    max-width: 100%;
     text-align: center;
     padding: 5rem 0;
-    margin: auto;
 
     display: flex;
     flex-direction: column;
@@ -121,8 +119,6 @@ header img {
     max-height: 4rem;
     min-width: 15rem;
     background: #45d492;
-    border: none;
-    color: white;
     padding: 1rem;
     margin-top: 3rem;
 
