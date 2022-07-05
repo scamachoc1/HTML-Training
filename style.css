@@ -72,13 +72,18 @@ header img {
     position: relative;
 }
 
+#main-1 .wrapper {
+    width: 100%;
+    position: absolute;
+    top: 2rem;
+}
 #main-1 h1 {
     color: white;
-    position: absolute;
-    /*font-size: 2rem;*/
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    max-width: 8em;
+    margin: auto;
+    line-height: 1.1;
 }
 
 #main-1 h1 span {
